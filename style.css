@@ -1,0 +1,158 @@
+*{
+    font-size: 1.5rem;
+}
+body{
+    background-color: #2b2d42;
+}
+button:hover{
+    background-color:hsl(16, 77%, 65%);
+    box-shadow:0px 8px 12px rgb(0,0,0,0.3);
+    transform:scale(1.05);
+    cursor:pointer;
+}
+button:active{
+    background-color: hsl(16, 77%, 75%);
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.3);
+    transform: scale(0.98);
+}
+
+main{
+    justify-self: center;
+width: 250px;
+height:400px;
+background-color: #2b2d42;
+justify-items: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+border-radius: 20px;
+padding: 10px;
+}
+h2{
+    color: white;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+#display{
+    
+    background-color: white;
+    width:220px;
+    height: 35px;
+    margin-bottom:15px;
+    border-radius: 3px;
+    border:0;
+}
+.father
+{
+    justify-content: center;
+    display:grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(5,50px);
+    grid-area: 
+    'mod clear backspace divesion'
+    '7 8 9 Multiplication'
+    '4 5 6 subtraction'
+    '1 2 3 addition'    
+    'negitive 0 point equal';
+    gap:10px;
+}
+.button4{
+    background-color:#365983;
+}
+.button8{
+    background-color: #365983;
+}
+.button12 {
+    background-color: #365983;
+}
+.button16 {
+    background-color: #365983;
+}
+.button20 {
+    background-color: #EB8662;
+}
+.button{
+    width: 50px;
+    height: 50px;
+
+}
+button{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: 0;
+}
+button
+#1{
+    grid-area: mod;
+}
+#2 {
+    grid-area: clear;
+}
+#3 {
+    grid-area:backspace;
+}
+#4 {
+    grid-area: divesion;
+    
+}
+#5 {
+    grid-area: 7;
+}
+#6 {
+    grid-area: 8;
+}
+#7 {
+    grid-area: 9;
+}
+#8 {
+    grid-area: Multiplication;
+}
+#9 {
+    grid-area: 4;
+}
+#10 {
+    grid-area: 5;
+}
+#11 {
+    grid-area: 6;
+}
+#12 {
+    grid-area: subtraction;
+}
+#13 {
+    grid-area: 1;
+}
+#14 {
+    grid-area: 2;
+}
+#15 {
+    grid-area: 3;
+}
+#16 {
+    grid-area:addition;
+}
+#17 {
+    grid-area: negitive;
+}
+#18 {
+    grid-area: 0;
+}
+#19 {
+    grid-area: point;
+}
+#20 {
+    grid-area: equal;
+}
+
+
+
+
+
+
+
+
+
+
